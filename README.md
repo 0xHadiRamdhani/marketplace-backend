@@ -44,7 +44,7 @@ Backend API untuk sistem marketplace sparepart motor bengkel, dibangun dengan El
 ### Installation
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/0xHadiRamdhani/marketplace-backend
 cd marketplace-backend
 
 # Install dependencies
