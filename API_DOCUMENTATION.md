@@ -10,7 +10,7 @@ Currently, this API does not require authentication (development mode).
 
 ---
 
-## 📦 Product Management
+## Product Management
 
 ### Get All Products
 **GET** `/api/products`
@@ -142,7 +142,7 @@ Get paginated list of products with optional filtering.
 
 ---
 
-## 🖼️ Image Management
+## Image Management
 
 ### Upload Product Image
 **POST** `/api/images/upload/:productId`
@@ -234,7 +234,7 @@ Delete an image from database.
 
 ---
 
-## 📋 Order Management
+## Order Management
 
 ### Get All Orders
 **GET** `/api/orders`
@@ -493,7 +493,7 @@ All endpoints return consistent error responses:
 
 ---
 
-## 🔧 Development Setup
+## Development Setup
 
 ```bash
 # Install dependencies

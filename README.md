@@ -4,36 +4,36 @@ Backend API untuk sistem marketplace sparepart motor bengkel, dibangun dengan El
 
 ## Fitur Utama
 
-### 📦 Manajemen Produk
-- ✅ CRUD produk sparepart motor
-- ✅ Kategori dan merk motor
-- ✅ Pencarian dan filtering produk
-- ✅ Pagination untuk daftar produk
+### Manajemen Produk
+- CRUD produk sparepart motor
+- Kategori dan merk motor
+- Pencarian dan filtering produk
+- Pagination untuk daftar produk
 
-### 🖼️ Manajemen Gambar
-- ✅ Upload multiple gambar per produk
-- ✅ Set gambar utama (primary)
-- ✅ Validasi tipe dan ukuran file
-- ✅ Penyimpanan lokal dengan nama file unik
+### Manajemen Gambar
+- Upload multiple gambar per produk
+- Set gambar utama (primary)
+- Validasi tipe dan ukuran file
+- Penyimpanan lokal dengan nama file unik
 
-### 📋 Sistem Order
-- ✅ Pemesanan produk dengan otomatisasi stock
-- ✅ Manajemen status order (PENDING, CONFIRMED, PROCESSING, SHIPPED, DELIVERED, CANCELLED)
-- ✅ Multiple items per order
-- ✅ Kalkulasi otomatis total harga
+### Sistem Order
+- Pemesanan produk dengan otomatisasi stock
+- Manajemen status order (PENDING, CONFIRMED, PROCESSING, SHIPPED, DELIVERED, CANCELLED)
+- Multiple items per order
+- Kalkulasi otomatis total harga
 
-### 💳 Sistem Pembayaran
-- ✅ Multiple payment records per order
-- ✅ Status pembayaran (PENDING, COMPLETED, FAILED, REFUNDED)
-- ✅ Otomatis update status order saat pembayaran lunas
-- ✅ Support berbagai metode pembayaran
+### Sistem Pembayaran
+- Multiple payment records per order
+- Status pembayaran (PENDING, COMPLETED, FAILED, REFUNDED)
+- Otomatis update status order saat pembayaran lunas
+- Support berbagai metode pembayaran
 
 ## Teknologi yang Digunakan
-- **Runtime**: Bun
-- **Framework**: Elysia.js
-- **Database**: SQLite dengan Prisma ORM
-- **Language**: TypeScript
-- **Storage**: Local file storage untuk gambar
+- Runtime: Bun
+- Framework: Elysia.js
+- Database: SQLite dengan Prisma ORM
+- Language: TypeScript
+- Storage: Local file storage untuk gambar
 
 ## Getting Started
 

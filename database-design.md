@@ -57,11 +57,11 @@ CREATE TABLE payments (
 ```
 
 ## Business Logic Flow
-1. **Upload Image**: User upload gambar → Simpan di local/cloud → Simpan URL di database
-2. **Create Order**: 
+1. Upload Image: User upload gambar → Simpan di local/cloud → Simpan URL di database
+2. Create Order:
    - Validasi stock produk
    - Hitung total amount
    - Kurangi stock produk
    - Buat order & order items
    - Generate payment record
-3. **Payment**: Update payment status → Update order status → Konfirmasi ke customer
+3. Payment: Update payment status → Update order status → Konfirmasi ke customer
